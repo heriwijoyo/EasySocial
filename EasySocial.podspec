@@ -36,6 +36,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/pjebs/EasySocial.git", :tag => "v1.0.0" }
   s.source_files  = "EasySocial/*"
   s.requires_arc = true
-  s.dependency "Facebook-iOS-SDK", "~> 3"
+  s.dependency "Facebook-iOS-SDK", "4.34.0"
 
 end
