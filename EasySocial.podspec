@@ -20,12 +20,6 @@ Pod::Spec.new do |s|
                    * Send Plain Tweets
                    * Send Tweets with images (via a URL or UIImage/NSData)
                    * Get Data from user's timeline
-
-                   --FACEBOOK--
-
-                   * Full Facebook Connect (Log In/Log Out and Auto-Log In)
-                   * Fetch User Information (objectID, name etc...)
-                   * Share and Publish messages in user's timeline
                    DESC
 
   s.homepage     = "https://github.com/pjebs/EasySocial"
@@ -33,9 +27,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "PJ Engineering and Business Solutions Pty. Ltd." => "enquiries@pjebs.com.au" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/pjebs/EasySocial.git", :tag => "v1.0.0" }
+  s.source       = { :git => "https://github.com/heriwijoyo/EasySocial.git", :tag => "v1.0.0" }
   s.source_files  = "EasySocial/*"
   s.requires_arc = true
-  s.dependency "Facebook-iOS-SDK", "4.34.0"
 
 end
